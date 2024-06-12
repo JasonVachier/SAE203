@@ -1,0 +1,34 @@
+site_name: DocZAZON
+
+nav:
+  - Introduction:
+    - "Etapes 1" : "index.md"
+    
+    - "Etapes 3" : "Etape1.md"
+
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: Switch to dark mode
+      primary: light blue
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+      primary: light blue
+      accent: lime
