@@ -2,7 +2,7 @@
 
 ## Bienvenue dans le guide d'installation et de paramétrage !
 
-Etape 1 : L'Architecture | Prérequis
+### Etape 1 : L'Architecture | Prérequis
 
 
 Il te faut des serveurs (ex: serveur1.net ; serveur2.net ; serveur3.net) (1G RAM suffit) :
