@@ -30,7 +30,7 @@ conf.yaml :
     tri-chrono: True                            # si True faire le trie chronologiquement, si False trie par criticité
 
 
-Va voir les autres pages pour voir :
+Vas voir les autres pages pour voir :
 
 - Le guide d'installation et de paramétrage
 
