@@ -15,7 +15,7 @@ aggreg.py est un programme à exécuté sur une machine aggregateur qui vas lire
     3 - fusion_flux = La fonction permet de prendre tout les flux de tout les serveurs, les fusionne pour n'en faire plus qu'un. Une fois la fusion faite on peut trié en fonction de la criticité ou de la date des évents
 
     4 - genere_html = Cette fonction récupère les flux analysée ( avec les informations importante et trié ) et crée une page html à partir de ces information. intègres un autre fichier 'style.css' pour la lisibilité 
-    
+
     5 - litYaml = la fonction récupère un fichier config en yaml, et le lit et renvoi sa config
 
 2 - Pourquoi un fichier yaml ?
@@ -34,7 +34,7 @@ conf.yaml :
     tri-chrono: True                            # si True faire le trie chronologiquement, si False trie par criticité
 
 
-Vas voir les autres pages pour voir :
+Vas voir les autres pages pour :
 
 - Le guide d'installation et de paramétrage
 
