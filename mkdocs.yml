@@ -2,9 +2,9 @@ site_name: DocZAZON
 
 nav:
   - Introduction:
-    - "Etapes 1" : "index.md"
+    - "Présentation" : "index.md"
     
-    - "Etapes 3" : "Etape1.md"
+    - "Etapes 1 - Création de l'environnement" : "Etape1.md"
 
 
 
