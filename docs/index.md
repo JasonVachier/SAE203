@@ -50,9 +50,9 @@ conf.yaml :
 
 ### Vas voir les autres pages pour :
 
-- Le guide d'installation et de paramétrage
+- [Le guide d'installation et de paramétrage](Etape1.md)
 
-- Le guide d'utilisation
+- [Le guide d'utilisation](Etape2.md)
 
 - Le Guide de résolution des problèmes
  
