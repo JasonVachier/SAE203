@@ -1,10 +1,10 @@
 # DOCUMENTATION SAE203
 
-# ___________________________________________________________________
+
 
 ## Présentation
 
-# ___________________________________________________________________
+
 
 
 Bonjour chers administrateurs système ! Bienvenue sur la documentation du programme aggreg.py.
