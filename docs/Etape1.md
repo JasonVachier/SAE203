@@ -7,23 +7,23 @@
 
 Il te faut des serveurs (ex: serveur1.net ; serveur2.net ; serveur3.net) (1G RAM suffira) :
 
-    - Ces machines n'ont pas d'interface graphique
+- Ces machines n'ont pas d'interface graphique
 
-    - Avoir un serveur http Apache2 installé avec un hôte virtuel configuré
+- Avoir un serveur http Apache2 installé avec un hôte virtuel configuré
 
-    - c'est ces machines qui aurons les évement en flux rss
+- c'est ces machines qui aurons les évement en flux rss
 
 
 Il te faut aussi une machine aggragteur (ex: aggreg.net) (1G RAM suffira) :
 
-    - Cette machine n'a pas d'interface graphique
+- Cette machine n'a pas d'interface graphique
 
-    - Avoir un serveur Apache2 installé avec un hôte virtuel configuré
+- Avoir un serveur Apache2 installé avec un hôte virtuel configuré
 
 
 Enfin un client (2G RAM suffira) :
 
-    - Cette machine à une interface graphique et un acces à un navigateur web
+- Cette machine à une interface graphique et un acces à un navigateur web
 
 
 ### Etape 2 : Serveurs
