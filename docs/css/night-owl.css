@@ -44,7 +44,7 @@ SOFTWARE.
   font-style: italic
 }
 .hljs-built_in {
-  color: #addb67;
+  color: #87aa53;
   font-style: italic
 }
 .hljs-type {
@@ -60,7 +60,7 @@ SOFTWARE.
   color: #5ca7e4
 }
 .hljs-string {
-  color: #ecc48d
+  color: #a16612
 }
 .hljs-subst {
   color: #d3423e
@@ -75,7 +75,7 @@ SOFTWARE.
   color: #82AAFF
 }
 .hljs-title {
-  color: #d81b89;
+  color: #505000;
   font-style: italic
 }
 .hljs-params {
