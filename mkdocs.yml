@@ -1,5 +1,14 @@
 site_name: JASON VACHIER | Documentation aggreg.py
 
+
+extra_css:
+  - css/night-owl.css 
+
+extra_javascript:
+  - js/highlight.min.js  
+  - js/highlight-init.js
+
+
 nav:
   - Introduction:
     - "Présentation" : "index.md"
