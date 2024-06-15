@@ -34,7 +34,7 @@ En ce qui concerne les serveurs, vérifiez que les flux des événements soient 
 
 Ces flux doivent se retrouver sur votre serveur Apache dans l'arborescence suivante :
 
-    X@serveur1: ~/var/www/serveur1 
+    X@serveurX: ~/var/www/serveurX 
 
 C'est tout ce dont tu as vraiment besoin sur tes serveurs !
 

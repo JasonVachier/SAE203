@@ -1,26 +1,39 @@
 # DOCUMENTATION SAE203
 
-## Présentation !
+# ___________________________________________________________________
 
-Bonjour chers administrateur système ! Bienvenue sur la doc du programme aggreg.py
+## Présentation
 
-1 - A quoi sert aggreg.py ?
+# ___________________________________________________________________
 
-aggreg.py est un programme à exécuté sur une machine aggregateur qui vas lire n flux RSS à partir de plusieurs URLs, et en génere une page HTML. aggreg.py contien plusieur fonction importante :
 
-1 - charge_urls = Charge les urls de flux rss et les analyse pour mettre à part les erreurs potentielles
+Bonjour chers administrateurs système ! Bienvenue sur la documentation du programme aggreg.py.
 
-2 - convert_string_date = Fonction qui permet de convertir le format des dates du flux RSS en format exploitable pour la fonction Datetime
 
-3 - fusion_flux = La fonction permet de prendre tout les flux de tout les serveurs, les fusionne pour n'en faire plus qu'un. Une fois la fusion faite on peut trié en fonction de la criticité ou de la date des évents
 
-4 - genere_html = Cette fonction récupère les flux analysée ( avec les informations importante et trié ) et crée une page html à partir de ces information. intègres un autre fichier 'style.css' pour la lisibilité 
+### A quoi sert 'aggreg.py' ?
 
-5 - litYaml = la fonction récupère un fichier config en yaml, et le lit et renvoi sa config
 
-2 - Pourquoi un fichier yaml ?
 
-Un fichier conf.yaml est mis en place afin de faciliter l'utilsation de aggreg.py
+'aggreg.py' est un programme destiné à être exécuté sur une machine agrégatrice. Il lit n flux RSS à partir de plusieurs URLs et génère une page HTML. aggreg.py contient plusieurs fonctions importantes :
+
+
+- charge_urls : Charge les URLs des flux RSS et les analyse pour identifier d'éventuelles erreurs.
+
+- convert_string_date : Cette fonction permet de convertir le format des dates du flux RSS en un format exploitable pour la fonction Datetime.
+
+- fusion_flux : Cette fonction prend tous les flux de tous les serveurs, les fusionne en un seul. Une fois la fusion effectuée, il est possible de les trier en fonction de la criticité ou de la date des événements.
+
+- genere_html : Cette fonction récupère les flux analysés (avec les informations importantes et triés) et crée une page HTML à partir de ces informations. Elle intègre également un autre fichier 'style.css' pour une meilleure lisibilité.
+
+- litYaml : Cette fonction récupère un fichier de configuration au format YAML, le lit et renvoie sa configuration.
+
+
+
+### Pourquoi un fichier YAML ?
+
+Un fichier 'conf.yaml' est mis en place afin de faciliter l'utilisation de aggreg.py.
+
 
 conf.yaml :
 
@@ -29,12 +42,13 @@ conf.yaml :
         - http://serveur2.net/rss.xml
         - http://serveur3.net/rss.xml
         ....
-    rss-name: rss.xml                           # Donne le nom du flux rss à téécharger
-    destination: /var/www/aggreg/index.html     # Indique la destination du fichier sortie HTML
-    tri-chrono: True                            # si True faire le trie chronologiquement, si False trie par criticité
+    rss-name: rss.xml                           # Donne le nom du flux rss à télécharger
+    destination: /var/www/aggreg/index.html     # Indique la destination du fichier de sortie HTML
+    tri-chrono: True                            # Si True, effectue le tri chronologiquement ; si False, trie par criticité
 
 
-Vas voir les autres pages pour :
+
+### Vas voir les autres pages pour :
 
 - Le guide d'installation et de paramétrage
 
