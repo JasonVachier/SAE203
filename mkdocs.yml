@@ -6,6 +6,10 @@ nav:
     
     - "Le guide d'installation et de paramétrage" : "Etape1.md"
 
+    - "aggreg.py" : "AggregPy.md"
+
+    - "style.css" : "StyleCss.md"
+
 
 
 theme:
