@@ -21,6 +21,8 @@ nav:
 
     - "style.css" : "StyleCss.md"
 
+    - "Télécharger les fichiers sources" : "dl.md"
+
 
 
 theme:
