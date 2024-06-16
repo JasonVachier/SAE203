@@ -1,0 +1,8 @@
+sources:  # Liste des URLs pour récupérer rss.xml                                  
+        - http://serveur1.net/rss.xml
+        - http://serveur2.net/rss.xml
+        - http://serveur3.net/rss.xml
+        # .... ( ajoutez autant de liens que vous avez de serveurs)
+    rss-name: rss.xml                           
+    destination: /var/www/aggreg/index.html  # Indique la destination du fichier de sortie HTML  
+    tri-chrono: True # Si True, effectue le tri chronologiquement ; si False, trie par criticité

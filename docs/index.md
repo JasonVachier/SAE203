@@ -49,7 +49,7 @@ conf.yaml :
  
  
  
-### Consulter les autres pages pour :
+### Consulter les autres pages pour
  
 - [Le guide d'installation et de paramétrage](Etape1.md)
 
