@@ -7,7 +7,9 @@
 
 
 
-Bonjour chers administrateurs système ! Bienvenue sur la documentation du programme aggreg.py.
+Bonjour chers administrateurs système,
+
+Bienvenue dans la documentation du programme aggreg.py.
 
 
 
@@ -15,8 +17,7 @@ Bonjour chers administrateurs système ! Bienvenue sur la documentation du progr
 
 
 
-'aggreg.py' est un programme destiné à être exécuté sur une machine agrégatrice. Il lit n flux RSS à partir de plusieurs URLs et génère une page HTML. aggreg.py contient plusieurs fonctions importantes :
-
+'aggreg.py' est un programme conçu pour être exécuté sur une machine agrégatrice. Il lit des flux RSS à partir de plusieurs URLs et génère une page HTML. Le programme 'aggreg.py' contient plusieurs fonctions importantes :
 
 - charge_urls : Charge les URLs des flux RSS et les analyse pour identifier d'éventuelles erreurs.
 
@@ -27,7 +28,6 @@ Bonjour chers administrateurs système ! Bienvenue sur la documentation du progr
 - genere_html : Cette fonction récupère les flux analysés (avec les informations importantes et triés) et crée une page HTML à partir de ces informations. Elle intègre également un autre fichier 'style.css' pour une meilleure lisibilité.
 
 - litYaml : Cette fonction récupère un fichier de configuration au format YAML, le lit et renvoie sa configuration.
-
 
 
 ### Pourquoi un fichier YAML ?
@@ -48,12 +48,11 @@ conf.yaml :
 
 
 
-### Vas voir les autres pages pour :
+### Consulter les autres pages pour :
 
 - [Le guide d'installation et de paramétrage](Etape1.md)
 
 - [Le guide d'utilisation](Etape2.md)
 
-- Le Guide de résolution des problèmes
  
 

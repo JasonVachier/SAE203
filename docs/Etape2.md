@@ -7,20 +7,20 @@
 ### Passons à l'utilisation
 
 
-Si tu as suivi les étapes précédentes, l'utilisation est un jeu d'enfant.
+Si vous avez suivi les étapes précédentes, l'utilisation est un jeu d'enfant.
 
 
-Tu as deux choses à prendre en compte :
+Vous avez deux choses à prendre en compte :
 
 - Le fichier de configuration 'conf.yaml'
 
 - Le cliant ayant LiveHosts
 
 
-Une fois la configuration faite sur tes machines [si ce n'est pas déjà fait](Etape1.md), tu peux éditer conf.yaml si tu veux changer quelques choses.
+Une fois la configuration effectuée sur vos machines [(si ce n'est pas déjà fait)](Etape1.md), vous pouvez éditer conf.yaml si vous souhaitez apporter des modifications.
 
 
-Par exemple, tu peux activer le tri chronologique :
+Par exemple, vous pouvez activer le tri chronologique :
 
     tri-chrono: True
 
@@ -29,11 +29,11 @@ Ou le tri par criticité :
     tri-chrono: False
 
 
-Une fois 'conf.yaml' édité à ta guise, tu peux te rendre dans ton navigateur favori équipé de l'extension LiveHosts et entrer l'URL suivante :
+Une fois 'conf.yaml' édité à votre guise, vous pouvez ouvrir votre navigateur favori équipé de l'extension LiveHosts et entrer l'URL suivante :
 
     aggreg.net
 
 
-### Et te voilà sur ta page des logs actualisée automatiquement !
+### Vous accédez ainsi à votre page de log des événements, actualisée automatiquement !
 
 
