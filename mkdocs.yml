@@ -10,7 +10,7 @@ extra_javascript:
 
 
 nav:
-  - Introduction:
+  - Documentation SAE203:
     - "Présentation" : "index.md"
     
     - "Le guide d'installation et de paramétrage" : "Etape1.md"

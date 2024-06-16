@@ -10,7 +10,7 @@
 
 Serveurs (ex : serveur1.net, serveur2.net, serveur3.net)
 
-- Configuration matérielle : 1 Go de RAM suffira.
+- Configuration matérielle : 1 Go de RAM minimum.
 
 - Interface graphique : Ces machines n'ont pas d'interface graphique.
 
@@ -22,11 +22,11 @@ Serveurs (ex : serveur1.net, serveur2.net, serveur3.net)
 
 Machine Agrégatrice (ex : aggreg.net) :
 
-- Configuration matérielle : 1 Go de RAM suffira.
+- Configuration matérielle : 1 Go de RAM minimum.
 
 - Interface graphique : Cette machine n'a pas d'interface graphique
 
-- logiciels requis : Serveur Apache2 installé avec un hôte virtuel configuré.
+- Logiciels requis : Serveur Apache2 installé avec un hôte virtuel configuré, et Python.
 
 - Utilisation : Cette machine sera utilisée pour exécuter le programme aggreg.py.
 
@@ -34,7 +34,7 @@ Machine Agrégatrice (ex : aggreg.net) :
 
 Client
 
-- Configuration matérielle : 2 Go de RAM suffira.
+- Configuration matérielle : 2 Go de RAM minimum.
 
 - Interface graphique : Cette machine dispose d'une interface graphique.
 
@@ -86,7 +86,7 @@ Sur cette machine, installez les éléments suivants :
 
     'conf.yaml'   # Fichier de configuration pour paramétrer facilement le programme Python.
 
-    'style.css'   # Ajout d'un peu de style quand même !!!
+    'style.css'   # Ajout de style à la page web.
 
 
 Pour 'aggreg.py': [Cliquez ici](AggregPy.md)
@@ -128,7 +128,7 @@ Le fichier 'style.css' doit se trouver au même endroit où la page HTML est gé
 
 Dans ce répertoire, vous pouvez également ajouter une image de fond de votre choix. Assurez-vous que l'image se nomme 'fond.jpg'. 
 
-Je vous propose celle-ci par exemple : [Cliquer ici](https://drive.google.com/file/d/1Pug2jDliUAHsWg-INjGTAQo20B8lawGK/view?usp=drive_link)
+Je vous propose celle-ci par exemple : [Cliquez ici](https://drive.google.com/file/d/1Pug2jDliUAHsWg-INjGTAQo20B8lawGK/view?usp=drive_link)
 
 
 
@@ -155,7 +155,7 @@ Puis :
     *  *  *  *  * python3 /chemin/vers/aggreg.py
 
 
-Après cela, si tout s'est bien passé, le programme se lance automatiquement et génère une page HTML (toute jolie pardi !), avec les flux de vos différents serveurs.
+Après cela, si tout s'est bien passé, le programme se lance automatiquement et génère une page HTML avec les flux de vos différents serveurs.
 
 
 
@@ -166,7 +166,11 @@ Après cela, si tout s'est bien passé, le programme se lance automatiquement et
 Pour la machine client, vous devez avoir accès au serveur Apache de aggreg.net pour visualiser la page HTML des logs des événements. Et pour cela, rien de plus simple !
 
 
-Sur votre navigateur, installez l'extension LiveHosts disponible sur la plupart des navigateurs.[Github de LiveHosts](https://github.com/Aioros/livehosts)
+Sur votre navigateur, installez l'extension LiveHosts disponible sur la plupart des navigateurs.[ Github de LiveHosts](https://github.com/Aioros/livehosts)
+
+[LiveHosts sur Google Store](https://chromewebstore.google.com/detail/livehosts/hdpoplemgeaioijkmoebnnjcilfjnjdi?pli=1)
+
+[LiveHosts sur Firefox](https://addons.mozilla.org/fr/firefox/addon/livehosts/)
 
 Puis configurez LiveHosts comme suit :
 

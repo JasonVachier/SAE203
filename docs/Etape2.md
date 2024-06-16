@@ -15,7 +15,7 @@ Vous avez deux choses à prendre en compte :
 
 - Le fichier de configuration 'conf.yaml'
 
-- Le cliant ayant LiveHosts
+- Le client ayant LiveHosts
 
 
 Une fois la configuration effectuée sur vos machines [(si ce n'est pas déjà fait)](Etape1.md), vous pouvez éditer conf.yaml si vous souhaitez apporter des modifications.
@@ -35,6 +35,6 @@ Une fois 'conf.yaml' édité à votre guise, vous pouvez ouvrir votre navigateur
     aggreg.net
 
 
-### Vous accédez ainsi à votre page de log des événements, actualisée automatiquement !
+*Vous accédez ainsi à votre page de log des événements, actualisée automatiquement !*
 
 
