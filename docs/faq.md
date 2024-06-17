@@ -4,7 +4,6 @@
 
 **Bien que la documentation traite de tous les points nécessaires pour le bon fonctionnement de la solution, vous pourrez tout de même rencontrer quelques soucis 'type'.**
 
-
 ### Pourquoi ma page 'aggreg.net' n'est-elle pas stylisée ?
 
 Pour commencer, un problème souvent remarqué lors du déploiement de cette solution informatique, c'est le manque de la configuration style dans notre page web.

@@ -55,9 +55,11 @@ conf.yaml :
 
 - [Le guide d'utilisation](Etape2.md)
 
+- [FAQ](faq.md)
+
 - [Télécharger les fichiers sources](dl.md)
 
-- [FAQ](faq.md)
+
 
 
  
