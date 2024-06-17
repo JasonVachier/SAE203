@@ -18,8 +18,6 @@ Voici les quelques étapes à suivre :
 
         /var/www/aggreg/ 
 
-Que ce fichier se trouve sur le serveur Apache soit :
-
 - Bien vérifier que, sur le programme Python, style.css soit appelé au bon endroit.
 
 Si style.css se trouve dans le même répertoire que index.html, alors :
