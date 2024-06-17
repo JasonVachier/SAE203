@@ -166,7 +166,9 @@ Après cela, si tout s'est bien passé, le programme se lance automatiquement et
 Pour la machine client, vous devez avoir accès au serveur Apache de aggreg.net pour visualiser la page HTML des logs des événements. Et pour cela, rien de plus simple !
 
 
-Sur votre navigateur, installez l'extension LiveHosts disponible sur la plupart des navigateurs.[ Github de LiveHosts](https://github.com/Aioros/livehosts)
+Sur votre navigateur web, installez l'extension LiveHosts.
+
+[ Github de LiveHosts](https://github.com/Aioros/livehosts)
 
 [LiveHosts sur Google Store](https://chromewebstore.google.com/detail/livehosts/hdpoplemgeaioijkmoebnnjcilfjnjdi?pli=1)
 
