@@ -1,7 +1,7 @@
 # DOCUMENTATION SAE203
 
 
-## Bienvenue dans le Le guide d'utilisation !
+## Bienvenue dans le guide d'utilisation !
 
 
 
