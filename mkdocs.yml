@@ -17,7 +17,7 @@ nav:
 
     - "Le guide d'utilisation" : "Etape2.md"
 
-   - "FAQ" : "faq.md"
+    - "FAQ" : "faq.md"
 
     - "aggreg.py" : "AggregPy.md"
 
