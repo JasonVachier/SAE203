@@ -14,7 +14,7 @@ Voici les quelques étapes à suivre :
 
 - La position dans l'arborescence est primordiale ! Vérifiez donc que :
 
-    style.css ---- Que ce fichier se trouve sur le serveur Apache soit :
+        style.css ---- fichier se trouve sur le serveur Apache soit :
 
         /var/www/aggreg/ 
 

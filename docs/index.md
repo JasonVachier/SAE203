@@ -58,9 +58,3 @@ conf.yaml :
 - [FAQ](faq.md)
 
 - [Télécharger les fichiers sources](dl.md)
-
-
-
-
- 
-
