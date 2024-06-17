@@ -17,12 +17,13 @@ nav:
 
     - "Le guide d'utilisation" : "Etape2.md"
 
+   - "FAQ" : "faq.md"
+
     - "aggreg.py" : "AggregPy.md"
 
     - "style.css" : "StyleCss.md"
 
     - "Télécharger les fichiers sources" : "dl.md"
-
 
 
 theme:

@@ -1,7 +1,7 @@
 # DOCUMENTATION SAE203
 
 
-## Bienvenue dans le guide d'installation et de paramétrage !
+## Bienvenue dans le Le guide d'utilisation !
 
 
 
